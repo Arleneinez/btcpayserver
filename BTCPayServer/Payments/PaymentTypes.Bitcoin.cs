@@ -11,7 +11,7 @@ using Newtonsoft.Json.Linq;
 using InvoiceCryptoInfo = BTCPayServer.Services.Invoices.InvoiceCryptoInfo;
 
 namespace BTCPayServer.Payments
-{
+{arleneinez
     public class BitcoinPaymentType : PaymentType
     {
         public static BitcoinPaymentType Instance { get; } = new BitcoinPaymentType();
